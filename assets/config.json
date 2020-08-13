@@ -1,8 +1,8 @@
 {
   "wwwAddress": "0.0.0.0",
-  "wwwPort": 4436,
+  "wwwPort": 4444,
   "serviceAddress": "0.0.0.0",
-  "servicePort": 4437,
+  "servicePort": 4445,
   "smtpAddress": "0.0.0.0",
   "smtpPort": 1025,
   "dbEngine": "SQLite",

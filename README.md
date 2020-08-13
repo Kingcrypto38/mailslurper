@@ -5,6 +5,8 @@ MailSlurper
 
 MailSlurper is a small SMTP mail server that slurps mail into oblivion! MailSlurper is perfect for individual developers or small teams writing mail-enabled applications that wish to test email functionality without the risk or hassle of installing and configuring a full blown email server. It's simple to use! Simply setup MailSlurper, configure your code and/or application server to send mail through the address where MailSlurper is running, and start sending emails! MailSlurper will capture those emails into a database for you to view at your leisure.
 
+**NOTE**: This is a fork to change the ports mailslurper runs on to [address permissions issues on Windows](https://github.com/moov-io/auth-example/issues/24).
+
 Compiling
 ---------
 The following are general instructions for compiling MailSlurper. Your details may vary a bit here and there. The below example is based on a Unix-style system, such as Ubuntu or OSX. Furthermore for instructional purposes it is assumed that your GOPATH is set to *~/code/go*, and that you have a folder in your source directory called **github.com**. Your setup may vary. The instructions below also assume you have the following already installed.
