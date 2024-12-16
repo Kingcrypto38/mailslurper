@@ -1,4 +1,4 @@
-FROM golang:1.15-alpine as builder
+FROM golang:1.23.4-alpine as builder
 RUN apk --no-cache add git libc-dev gcc
 RUN go get github.com/mjibson/esc
 
